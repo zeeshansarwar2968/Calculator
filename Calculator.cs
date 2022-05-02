@@ -24,7 +24,15 @@ namespace Calculator
         //Subtraction logic
         public void Subtraction(int num1, int num2)
         {
-            int subtraction = num1 - num2;
+            int subtraction=0;
+            if (num1>=num2)
+            {
+                subtraction = num1 - num2;
+            }
+            else if( num2> num1)
+            {
+                subtraction = num2 - num1;
+            }
             Console.WriteLine("Subtraction of two numbers {0}-{1}={2}", num1, num2, subtraction);
         }
         //Multiplication
