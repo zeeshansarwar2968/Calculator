@@ -13,6 +13,8 @@ namespace Calculator // Note: actual namespace depends on the project name.
             int num2 = Convert.ToInt32(Console.ReadLine());
             calcObj.Add();
             calcObj.Addition(num1, num2);
+            calcObj.Subtraction(num1, num2);
+
         }
     }
 }
